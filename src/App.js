@@ -1,4 +1,5 @@
-import ExpenseItem from "./components/ExpenseItem";
+//import Card from "./components/Card";
+
 import Expenses from "./components/Expenses";
 
 
@@ -12,11 +13,11 @@ function App() {
   ];
 
   return (
-    <div> 
+    <> 
 
     <Expenses expenses={expenses}/>
 
-    </div>
+    </>
 );
 }
 
