@@ -1,5 +1,6 @@
 import React from 'react'
 import "./ExpenseItem.css";
+
 const ExpenseItem = (props) => {
 
     return(
@@ -15,4 +16,5 @@ const ExpenseItem = (props) => {
     </div>
     )
 }
+
 export default ExpenseItem
