@@ -1,6 +1,5 @@
-//import Card from "./components/Card";
-
-import Expenses from "./components/Expenses";
+import Card from "./components/UI/Card";
+import Expenses from "./components/Expenses/Expenses";
 
 
 function App() {
@@ -13,11 +12,9 @@ function App() {
   ];
 
   return (
-    <> 
-
+  <Card> 
     <Expenses expenses={expenses}/>
-
-    </>
+  </Card>
 );
 }
 
