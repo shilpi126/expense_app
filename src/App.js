@@ -12,9 +12,13 @@ function App() {
     { id: "4", date: new Date(2023, 1, 14), title: "Laptop", price: 200, location :"Mumbai" },
   ];
 
+  const addExpense = (enterExpenseData) => {
+    console.log(enterExpenseData);
+  }
+
   return (
   <Card> 
-    <NewExpense/>
+    <NewExpense onAddExpense={addExpense}/>
     <Expenses expenses={expenses}/>
   </Card>
 );
