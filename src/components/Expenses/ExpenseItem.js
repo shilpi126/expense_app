@@ -7,7 +7,7 @@ import Card from '../UI/Card';
 const ExpenseItem = (props) => {
 
     return(
-    
+        <li>
         <Card className="expense-item" key={props.id} >
         <ExpenseDate date={props.date}/>
         <div className="expense-item__description">
@@ -17,6 +17,7 @@ const ExpenseItem = (props) => {
         </div>
 
         </Card>
+        </li>
     
     )
 }
